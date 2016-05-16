@@ -112,6 +112,7 @@ class ViewController: UIViewController {
         p2 = Character(hp: 100, maxAttackPwr: 20)
         p1HpLbl.text = "\(p1.hp)"
         p2HpLbl.text = "\(p2.hp)"
+        infoLbl.text = "Press Attack to attack!"
         
         newGameBtn.hidden = true
         newGameLbl.hidden = true
