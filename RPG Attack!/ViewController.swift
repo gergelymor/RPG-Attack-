@@ -110,8 +110,8 @@ class ViewController: UIViewController {
     func gameInit(){
         p1 = Character(hp: 100, maxAttackPwr: 20)
         p2 = Character(hp: 100, maxAttackPwr: 20)
-        p1HpLbl.text = "\(p1.hp)"
-        p2HpLbl.text = "\(p2.hp)"
+        p1HpLbl.text = "\(p1.hp) HP"
+        p2HpLbl.text = "\(p2.hp) HP"
         infoLbl.text = "Press Attack to attack!"
         
         newGameBtn.hidden = true
